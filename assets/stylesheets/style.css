@@ -92,15 +92,19 @@ label{
 .radio-toolbar label {
 
   display: inline-block;
-  background-color: #ddd;
+  /*background-color: #ddd; Απάτητο κουμπί*/
+  background-color: #F6F3C8;
   padding: 4px 11px;
-  font-family: "Muli";
-  font-size: 16px;
+  /*font-family: "Muli"; /*Γραμματοσειρά*/*/
+  font-family: "Montserrat"; /*Γραμματοσειρά*/
+  /*font-size: 16px; Font size*/
+  font-size: 17px; /*Font size*/
   cursor: pointer;
 }
 
 .radio-toolbar input[type="radio"]:checked+label {
-  background-color: #bbb;
+  /*background-color: #bbb;*/
+  background-color: #EFE444;
 }
 
 
@@ -337,5 +341,5 @@ form {
 	    font-size:8px !important;
         color: #0FA3B1;
     }
-//This is mine
-input {backgound-color: magenta}
+
+
