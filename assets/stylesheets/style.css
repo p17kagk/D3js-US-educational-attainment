@@ -111,6 +111,8 @@ label{
 
 a, a:visited, a:hover {
 	text-decoration: none;
+	/*my code*/
+	onmouseover="responsiveVoice.speak('','UK English Female'); "onmouseleave="responsiveVoice.cancel();"
 }
 
 textarea, input {
