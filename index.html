@@ -67,6 +67,7 @@
 <script src="assets/scripts/script_3.js"></script>
 <!--  The sound js -->
 <script type="text/javascript" src="assets/scripts/sound-mouseover.js"></script>
+
 <script>
     $( document ).ready(function() {
       $(window).scroll(function(){
@@ -83,6 +84,35 @@
    Should be equal the the height of the header
  */
 </script>
+	
+	
+$(selector).articulate('speak');
+// pause
+$().articulate('pause');
+// resume
+$().articulate('resume');
+// stop
+$().articulate('stop');	
+$().articulate('rate', *number*);
+$().articulate('pitch', *number*); 
+$().articulate('volume', *number*);
+$().articulate('ignore',*tagName,tagName,...*); 
+$().articulate('recognize',*tagName,tagName,...*);
+$().articulate('replace',*oldText,newText,...*);
+$().articulate('customize',*tagName,prepend*);
+$().articulate('customize',*tagName,prepend,append*);
+	
+data-articulate-ignore
+data-articulate-spell
+data-articulate-prepend=*text*
+data-articulate-append=*text*
+data-articulate-append=*text*
+
+
+
+	
+	
+
 
 <audio>
 <source src="assets/media/click.mp3">
