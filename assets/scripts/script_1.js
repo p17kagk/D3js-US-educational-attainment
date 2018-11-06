@@ -152,7 +152,7 @@ function donutChart() {
                         .attr('r', radius * 0.55) // radius of tooltip circle
                         .style('fill', colour(data.data[category])) // colour based on category mouse is over
                         .style('fill-opacity', 0.35);
-
+                        responsiveVoice(createString(data),'UK English Female');
                 });
 
                 // remove the tooltip when mouse leaves the slice/label
@@ -183,7 +183,20 @@ function donutChart() {
                 return tip;
             }
             // ===========================================================================================
+        function createString(data) {
 
+                var tip = '',
+                    j   = 0;
+
+                for (var key in data.data) {
+                    console.log(key, data.data);
+                    var value = key == "Percent" ? percentFormat(data.data[key]) : data.data[key];
+                    tip += key + value;
+                    j++;
+                }
+
+                return tip;
+            }
         });
     }
 
