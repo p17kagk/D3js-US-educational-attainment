@@ -193,7 +193,7 @@ polyline{
 }
 
 #pie-chart {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
@@ -203,7 +203,7 @@ polyline{
 }
 
 #stacked-bar-chart {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
