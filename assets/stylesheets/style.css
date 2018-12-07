@@ -202,8 +202,8 @@ polyline{
     margin: 0 auto;
 }
 
-#stacked-bar-none {
-    display: block;
+#stacked-bar-chart {
+    display: none;
     margin: 0 auto;
 }
 
