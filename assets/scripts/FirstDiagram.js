@@ -1,7 +1,7 @@
 function FirstDiagram()
 {
 document.getElementById("First").style.display = "block";
-document.getElementById("pie-chart").style.display = "Initial";
+document.getElementById("pie-chart").style.display = "block";
 
 document.getElementById("Second").style.display = "none";
 document.getElementById("chart").style.display = "none";
