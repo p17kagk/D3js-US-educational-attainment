@@ -206,6 +206,19 @@ polyline{
     display: none;
     margin: 0 auto;
 }
+#First{
+    display: none;
+}
+
+#Second{
+    display: none;
+}
+#Third{
+    display: none;
+}
+
+
+
 
 .paragraph {
     width: 800px;
