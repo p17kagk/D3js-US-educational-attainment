@@ -193,7 +193,7 @@ polyline{
 }
 
 #pie-chart {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
