@@ -192,19 +192,18 @@ polyline{
     font-style: italic;
 }
 
-
 #pie-chart {
     display: block;
     margin: 0 auto;
 }
 
 #treemap {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
 #stacked-bar-chart {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
