@@ -1,4 +1,4 @@
-function SecondDiagram ()
+function SecondDiagram()
 {
 document.getElementById("First").style.display = "none";
 document.getElementById("pie-chart").style.display = "none";
