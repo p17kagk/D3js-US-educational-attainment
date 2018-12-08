@@ -194,7 +194,7 @@ polyline{
 
 
 #pie-chart {
-    display: block;
+    display: none;
     margin: 0 auto;
 }
 
