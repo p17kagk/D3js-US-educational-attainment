@@ -193,12 +193,12 @@ polyline{
 }
 
 #pie-chart {
-    display: block;
+    display: none;
     margin: 0 auto;
 }
 
 #treemap {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
