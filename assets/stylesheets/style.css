@@ -192,13 +192,14 @@ polyline{
     font-style: italic;
 }
 
+
 #pie-chart {
-    display: none;
+    display: block;
     margin: 0 auto;
 }
 
 #treemap {
-    display: block;
+    display: none;
     margin: 0 auto;
 }
 
