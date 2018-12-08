@@ -21,10 +21,11 @@
   <header>
        <nav>
     <ul>
-      <li><a href="#top" onmouseover="playclip();FirstDiagram();">Top</a></li>
-      <li><a href="#national" onmouseover="playclip();FirstDiagram();">National</a></li>
-      <li><a href="#regional" onmouseover="playclip();SecondDiagram();">Regional</a></li>
-      <li><a href="#state" onmouseover="playclip();ThirdDiagram();">State-Level</a></li>
+      <!-- Modify the "mouseover" scripts, so as to Hide the other diagrams-->
+	<li><a href="#top" onmouseover="playclip();FirstDiagram();">Top</a></li>
+        <li><a href="#national" onmouseover="playclip();FirstDiagram();">National</a></li>
+        <li><a href="#regional" onmouseover="playclip();SecondDiagram();">Regional</a></li>
+        <li><a href="#state" onmouseover="playclip();ThirdDiagram();">State-Level</a></li>
     <ul>
         </nav>
     </header>
@@ -34,6 +35,11 @@
 	 
     <p><br></p>
     <h2 class="subtitle" onmouseover="responsiveVoice.speak('Nation-Wide Education Level of Population in Schooling','UK English Female');" onmouseleave="responsiveVoice.cancel();">Nation-Wide Education Level of Population in Schooling</h2>
+
+<!-- Add div. Using this div, only this Diagram is visible-->
+<div id="ShowFirst">
+<h2 class="subtitle" onmouseover="responsiveVoice.speak('Educational Attainment: Region-level Breakdown of University Students','UK English Female');" onmouseleave="responsiveVoice.cancel();">Educational Attainment: Region-level Breakdown of University Students</h2>
+</div>
 	 
     <svg id="pie-chart" width="960" height="450"></svg><a name="regional"></a>
     <p><br><br><br></p>
@@ -103,7 +109,7 @@
  */
 </script>
 	 
-<!-- The First,Second,Third Diagram scripts-->
+<!-- The First,Second,Third Diagram scripts location-->
 <script type="text/javascript" src="assets/scripts/FirstDiagram.js"></script>
 <script type="text/javascript" src="assets/scripts/SecondDiagram.js"></script>
 <script type="text/javascript" src="assets/scripts/ThirdDiagram.js"></script>
