@@ -1,0 +1,245 @@
+{
+ "name": "Nation-Wide Education Level of Population in Schooling",
+ "children": 
+  [
+  {
+   "name": "Nursery:6%",
+    "children": 
+    [
+    {
+     "name": "Education Level:Nursery",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:6%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:5,013,351",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:4 years old",
+     "children": 
+     [
+     ]
+    }
+  ]
+  },
+
+  {
+   "name": "Kindergarten:5%",
+   "children": 
+    [
+    {
+     "name": "Education Level:Kindergarten",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:5%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:4,221,320",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:5 years old",
+     "children": 
+     [
+     ]
+    }
+  ]
+  },
+
+  {
+   "name": "Elementary: 1-4:20%",
+   "children": 
+    [
+    {
+     "name": "Education Level:Elementary: 1-4",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:20%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:16,511,632",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:6-9 years old",
+     "children": 
+     [
+     ]
+    }
+  ]
+  },
+
+   {
+   "name": "Elementary: 5-8:20%",
+   "children": 
+    [
+    {
+     "name": "Education Level:Elementary: 5-8",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:20%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:16,675,078",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:10-13 years old",
+     "children": 
+     [
+     ]
+    }
+  ]
+  },
+
+  {
+   "name": "High School: 9-12:21%",
+   "children": 
+    [
+    {
+     "name": "Education Level:High School: 9-12",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:21%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:17,176,546",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:14-18 years old",
+     "children": 
+     [
+     ]
+    }
+  ]
+  },
+
+  {
+   "name": "Undergraduate:23%",
+   "children": 
+    [
+    {
+     "name": "Education Level:Undergraduate",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:23%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:19,291,233",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:18-22 years old",
+     "children": 
+     [
+     ]
+    }
+  ]
+  },
+
+  {
+   "name": "Graduate:5%",
+   "children": 
+    [
+    {
+     "name": "Education Level:Graduate",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Percent:5%",
+     "children": 
+      [
+      ]
+    },
+    
+    {
+     "name": "Count:4,165,602",
+     "children": 
+     [
+     ]
+    },
+
+    {
+     "name": "Age Range:22",
+     "children": 
+     [
+     ]
+    }
+  ]
+  }
+]  
+}
+
+ 
